@@ -6,7 +6,7 @@ int main()
 {
     cout << "Hello World!asdasdasdds    " << endl;
 
-    cout << "Edycja Wojciecha" << endl;
+    cout << "Nie Edycja Wojciecha. Narazko" << endl;
     string a;
     cin >> a;
     cout << a << endl;

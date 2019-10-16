@@ -5,11 +5,6 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello World!asdasdasdds    " << endl;
-
-    cout << "Edycja Wojciecha" << endl;
-    string a;
-    cin >> a;
-    cout << a << endl;
+    int a;
     return 0;
 }

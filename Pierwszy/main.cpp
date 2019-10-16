@@ -9,5 +9,5 @@ int main()
 {
     for (auto x:test)
         sum+=x;
-    printf("%d\n", suma);
+    printf("%d\n", sum);
 }

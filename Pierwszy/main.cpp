@@ -2,9 +2,11 @@
 #include<cmath>
 #include<vector>
 #include<cstdio>
+
 using namespace std;
 vector<int> test(100, 857142);
-int suma0;
+int suma;
+
 int main()
 {
     int b;

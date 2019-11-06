@@ -2,7 +2,23 @@
 #include "kwadratowa.h"
 
 
-float kwadratowa( float x, float a, float b, float c)
+std::pair<float,float> kwadratowa(float a, float b, float c)
 {
-    return a*pow(x,2)+b*x + c;
+    float delta = b*b-4*a*c;
+    if(delta > 0)
+    {
+        float x0 = (-b+sqrt(delta))/(2*a);
+        float x1 = (-b-sqrt(delta))/(2*a);
+        if (x0 > x1)
+            std::swap(x0, x1);
+        return {x0, x1};
+    }
+    if(delta  < 0)
+    {
+        return {-b / (2 * a),NAN};
+    }
+    else
+    {
+        return{NAN,NAN};
+    }
 }

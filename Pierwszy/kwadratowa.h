@@ -1,6 +1,8 @@
 #ifndef KWADRATOWA_H
 #define KWADRATOWA_H
+#include <utility>
 
-float kwadratowa( float x, float a, float b, float c);
+
+std::pair<float,float> kwadratowa(float a, float b, float c);
 
 #endif // KWADRATOWA_H

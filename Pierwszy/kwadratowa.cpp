@@ -15,10 +15,10 @@ std::pair<float,float> kwadratowa(float a, float b, float c)
     }
     if(delta  < 0)
     {
-        return {-b / (2 * a),NAN};
+        return{NAN,NAN};
     }
     else
     {
-        return{NAN,NAN};
+        return {-b / (2 * a),NAN};
     }
 }

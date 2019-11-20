@@ -4,7 +4,7 @@
 
 TEST(prosty_test, test_wartosci)
 {
-   const float tolerance = 1e-5;
+   const float tolerance = 1e-5f;
    float a = 1;
    float b = 4;
    float c = -5;
@@ -16,7 +16,7 @@ TEST(prosty_test, test_wartosci)
 
 TEST(prosty_test, test_0)
 {
-    const float tolerance = 1e-5;
+    const float tolerance = 1e-5f;
     float a = 1;
     float b = 2;
     float c = 1;

@@ -1,0 +1,5 @@
+/home/wstrak/Pulpit/po/Programowanie-obiektowe/build-Pierwszy-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/wstrak/Pulpit/po/Programowanie-obiektowe/build-Pierwszy-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/wstrak/Pulpit/po/Programowanie-obiektowe/build-Pierwszy-Desktop-Debug/CMakeFiles/test.dir
+/home/wstrak/Pulpit/po/Programowanie-obiektowe/build-Pierwszy-Desktop-Debug/CMakeFiles/Pierwszy.dir
+/home/wstrak/Pulpit/po/Programowanie-obiektowe/build-Pierwszy-Desktop-Debug/CMakeFiles/test1.dir

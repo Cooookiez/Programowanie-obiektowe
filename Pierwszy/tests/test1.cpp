@@ -22,8 +22,8 @@ TEST(prosty_test, test_0)
     float c = 1;
     auto val = kwadratowa(a, b, c );
 
-    EXPECT_NEAR(val.first, -1.0, tolerance);
-    EXPECT_NEAR(val.second, NAN, tolerance);
+    EXPECT_NEAR(val.first, -1, tolerance);
+    EXPECT_TRUE(std::isnan(val.second));
 }
 
 int main(int argc, char **argv) {

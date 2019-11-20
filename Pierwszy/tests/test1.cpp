@@ -26,6 +26,19 @@ TEST(prosty_test, test_0)
     EXPECT_TRUE(std::isnan(val.second));
 }
 
+
+TEST(prosty_test, test_brak_rozwiazan)
+{
+    const float tolerance = 1e-5;
+    float a = 3;
+    float b = 2;
+    float c = 3;
+    auto val = kwadratowa(a, b, c );
+
+    EXPECT_TRUE(std::isnan(val.first));
+    EXPECT_TRUE(std::isnan(val.second));
+}
+
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
